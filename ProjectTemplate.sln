@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTemplate.Api", "ProjectTemplate.Api\ProjectTemplate.Api.csproj", "{A39627F2-F581-4854-B529-C70DF9FCA930}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectTemplate.Api", "ProjectTemplate.Api\ProjectTemplate.Api.csproj", "{A39627F2-F581-4854-B529-C70DF9FCA930}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTemplate.Infrastructure", "ProjectTemplate.Infrastructure\ProjectTemplate.Infrastructure.csproj", "{2B337FA5-7EFA-4EEB-BE86-A8D57BE6513D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectTemplate.Infrastructure", "ProjectTemplate.Infrastructure\ProjectTemplate.Infrastructure.csproj", "{2B337FA5-7EFA-4EEB-BE86-A8D57BE6513D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTemplate.Model", "ProjectTemplate.Model\ProjectTemplate.Model.csproj", "{0D95A1E7-BC7F-4C1C-9F08-EC528EC32BBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectTemplate.Model", "ProjectTemplate.Model\ProjectTemplate.Model.csproj", "{0D95A1E7-BC7F-4C1C-9F08-EC528EC32BBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTemplate.Service", "ProjectTemplate.Service\ProjectTemplate.Service.csproj", "{D26F6DD7-5BB5-4442-994E-DB4F31B62296}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectTemplate.Service", "ProjectTemplate.Service\ProjectTemplate.Service.csproj", "{D26F6DD7-5BB5-4442-994E-DB4F31B62296}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTemplate.Repository", "ProjectTemplate.Repository\ProjectTemplate.Repository.csproj", "{1BDD9A39-2545-40F3-9D13-37FC1DD424D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectTemplate.Repository", "ProjectTemplate.Repository\ProjectTemplate.Repository.csproj", "{1BDD9A39-2545-40F3-9D13-37FC1DD424D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTemplate.Common", "ProjectTemplate.Common\ProjectTemplate.Common.csproj", "{699A79B3-CE0C-4C36-9349-FBE00155CD80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectTemplate.Common", "ProjectTemplate.Common\ProjectTemplate.Common.csproj", "{699A79B3-CE0C-4C36-9349-FBE00155CD80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTemplate.CronJob", "ProjectTemplate.CronJob\ProjectTemplate.CronJob.csproj", "{C16E0C90-9AC6-4A9A-AF5B-4579C91149F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectTemplate.CronJob", "ProjectTemplate.CronJob\ProjectTemplate.CronJob.csproj", "{C16E0C90-9AC6-4A9A-AF5B-4579C91149F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTemplate.Service.Test", "ProjectTemplate.Service.Test\ProjectTemplate.Service.Test.csproj", "{87FF624A-1C4E-41C1-B7F0-FCFC84D67358}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectTemplate.Service.Test", "ProjectTemplate.Service.Test\ProjectTemplate.Service.Test.csproj", "{87FF624A-1C4E-41C1-B7F0-FCFC84D67358}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTemplate.Worker", "ProjectTemplate.Worker\ProjectTemplate.Worker.csproj", "{1D18FCA4-6936-46E6-A674-F188D4101B1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{87FF624A-1C4E-41C1-B7F0-FCFC84D67358}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87FF624A-1C4E-41C1-B7F0-FCFC84D67358}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87FF624A-1C4E-41C1-B7F0-FCFC84D67358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D18FCA4-6936-46E6-A674-F188D4101B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D18FCA4-6936-46E6-A674-F188D4101B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D18FCA4-6936-46E6-A674-F188D4101B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D18FCA4-6936-46E6-A674-F188D4101B1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
