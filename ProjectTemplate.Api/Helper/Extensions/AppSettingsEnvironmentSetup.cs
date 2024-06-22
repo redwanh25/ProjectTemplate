@@ -1,8 +1,8 @@
 ﻿namespace ProjectTemplate.Api.Helper.Extensions;
 
-public static class EnvironmentSetup
+public static class AppSettingsEnvironmentSetup
 {
-    public static IHostBuilder AppSettingsEnvironmentSetup(this IHostBuilder host)
+    public static IHostBuilder UseAppSettingsEnvironment(this IHostBuilder host)
     {
         var env = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
 
